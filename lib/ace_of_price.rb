@@ -21,8 +21,8 @@ private
 
   def send_request(base_url, key: nil, url: nil, id: nil)
     params = {
-      'key' => key,
-      'id'  => id,
+      'token' => key,
+      'external_id'  => id,
       'url' => url
     }
 
