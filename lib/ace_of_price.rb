@@ -9,12 +9,12 @@ class AceOfPrice
   class << self
 
     def subscribe(key: nil, id: nil, url: nil)
-      base_url = BASE_URL.concat(SUBSCRIBE_PATH)
+      base_url = BASE_URL + SUBSCRIBE_PATH
       AceOfPrice.send_request(base_url, key, url, id) if key && url && id
     end
 
     def unsubscribe(key: nil, url: nil)
-      base_url = BASE_URL.concat(UNSUBSCRIBE_PATH)
+      base_url = BASE_URL + UNSUBSCRIBE_PATH
       AceOfPrice.send_request(base_url, key, url, nil) if key && url
     end
 
