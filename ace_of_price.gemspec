@@ -1,15 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ace_of_price/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ace_of_price"
-  spec.version       = AceOfPrice::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["vickodin"]
   spec.email         = ["vick.orel@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Write a short summary. Required.}
+  spec.description   = %q{Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
