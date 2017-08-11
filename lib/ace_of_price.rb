@@ -2,7 +2,7 @@ require "uri"
 require "net/http"
 
 class AceOfPrice
-  BASE_URL = 'http://localhost:3000/'
+  BASE_URL = 'http://aceofprice.com'
   SUBSCRIBE_PATH = 'api/subscriptions/'
   UNSUBSCRIBE_PATH = 'api/subscriptions/delete'
 
